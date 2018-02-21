@@ -1,0 +1,96 @@
+body {
+  background-image: url("http://1amsf.com/wp-content/uploads/2011/03/Siddhartha_HiRes.jpg");
+/*background: #EBEBEB;*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #09194F;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+div {
+  width: 700px;
+  margin: 30px auto;
+}
+
+.text-center {
+    text-align: center;
+}
+.container {
+    width: 1200px;
+    margin: 30px auto;
+}
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow:
+}
+.list-in-line li{
+  display: inline-block;
+  padding: 0 10px;
+}
+.image-framed{
+  width: 600px;
+  }
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+
+}
+
+table {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+
+td, th {
+    display: table-cell;
+}
+
+h1, h2, h3 {
+font-family: 'Montserrat', sans-serif;
+  }
+h1 {
+  color: #DD5555;
+  font-size: 22px;
+  }
+
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+a {
+    color: #970747;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: yellow;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
